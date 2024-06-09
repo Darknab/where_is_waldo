@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: valid_character
+  coordinates: [12, 20, 46, 32]
+
+two:
+  name: too_short_array
+  coordinates: [1]
+
+three: 
+  name: too_long_array
+  coordinates: [12, 20, 46, 32, 72, 88]
