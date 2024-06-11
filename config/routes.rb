@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  namespace :api do
+    resources :images, only: [:show]
+  end
   root 'homepage#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
