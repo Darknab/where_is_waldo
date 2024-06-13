@@ -23,5 +23,9 @@ export default function WaldoImage() {
     return <p className="error">The image couln't be loaded please try to reload the page</p>
   }
   
-  return <img src={imagePath} alt="image with a lot of characters" />
+  return (
+    <div className="image-container">
+      <img className="waldo" src={imagePath} alt="image with a lot of characters" />
+    </div>
+  )
 }
