@@ -1,0 +1,28 @@
+.image-container {
+  width: 90vw;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.waldo {
+  max-width: 100%;
+  cursor: move;
+}
+
+
+.btn-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  top: 0;
+  left: 0;
+}
+
+.zoom {
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
