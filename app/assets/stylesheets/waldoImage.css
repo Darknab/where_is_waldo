@@ -1,5 +1,6 @@
 .image-container {
   width: 90vw;
+  aspect-ratio: 1920 / 1080;
   position: relative;
   overflow: hidden;
 }
@@ -10,7 +11,7 @@
   cursor: move;
 }
 
-
+/*
 .btn-container {
   position: absolute;
   display: flex;
@@ -25,4 +26,11 @@
   border: none;
   cursor: pointer;
   z-index: 100;
+}
+*/
+
+.character {
+  position: absolute;
+  border: 1px solid black;
+  z-index: 50;
 }
